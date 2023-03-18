@@ -1,0 +1,29 @@
+'''
+Best train loss: 0.005048439489749806,  best valid loss: 1.682855075712305  - 19 43
+Best train loss: 0.014089820803151113,  best valid loss: 0.9309347219626023 - 19 47
+Best train loss: 0.012346971142788193,  best valid loss: 1.3011226343611877 - 19 50
+
+DROP = 0.2 -> 0.35
+Best train loss: 0.020352220033287426,  best valid loss: 0.812778498581343  - 19 52
+Best train loss: 0.01740893010844894,   best valid loss: 1.2781884515358286 - 19 55
+
+WEIGHT_DECAY = 1e-6 -> 2e-3
+Best train loss: 0.012444032705388963,  best valid loss: 1.6982805040215367 - 19 58
+Best train loss: 0.011696335430064335,  best valid loss: 1.6472891115867159 - 20 00
+
+WEIGHT_DECAY = 2e-3 -> 2e-5
+Best train loss: 0.008863273170046058,  best valid loss: 1.593089141857532  - 20 03
+Best train loss: 0.006897974405829104,  best valid loss: 1.674039687313696  - 20 05
+
+BATCH_SIZE = 6 -> 64
+Best train loss: 0.006621509938585487,  best valid loss: 0.7003860455006361 - 20 07, ~60 epoch
+Best train loss: 0.00781556527892297,   best valid loss: 0.5620411569770012 - 20 08, 56
+
+WEIGHT_DECAY = 2e-5 -> 1e-5
+Best train loss: 0.0074511507780037145, best valid loss: 0.6195548678127428 - 20 10, 60
+Best train loss: 0.01254948444495147,   best valid loss: 0.5406776682163278 - 20 12, 51
+Best train loss: 0.0071018646174872465, best valid loss: 0.7230513343173597 - 20 15, 64
+
+
+BEST IMHO: BATCH_SIZE = 64 WEIGHT_DECAY = 2e-5
+'''
